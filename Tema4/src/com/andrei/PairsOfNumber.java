@@ -23,7 +23,7 @@ public class PairsOfNumber {
         }
 //        Arrays.sort(array, Collections.reverseOrder());
         for (int i=0; i < array.length-1; i++)
-            System.out.println(array[i] + " " + array[i+1]);
+            System.out.println("[" + array[i] + " " + array[i+1] + "]");
     }
 
 
